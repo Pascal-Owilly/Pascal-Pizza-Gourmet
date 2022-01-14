@@ -1,0 +1,25 @@
+body {
+    box-sizing: border-box;
+}
+
+nav div a{
+    color: yellow;
+}
+
+nav {
+    height: 17.9vh;
+}
+
+nav a {
+    min-height: 20vh;
+}
+
+ span {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#nav-hide {
+  display: none;
+}
+
