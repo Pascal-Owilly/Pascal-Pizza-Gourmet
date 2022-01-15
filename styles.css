@@ -13,9 +13,9 @@ nav {
 }
 
 .fa-solid {
- color: #fac564;
- font-size: 100px;
- background-color: lightblue;
+    color: #fac564;
+    font-size: 100px;
+    background-color: lightblue;
 }
 
 nav a {
@@ -79,12 +79,10 @@ select {
     background-color: red;
     color: white;
     padding: 5px;
-    outline: none;
+    outline:
+     none;
 }
 
-.jumbotron {
-    display: none;
-}
 
 #section {
     display: none;
