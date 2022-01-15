@@ -4,15 +4,22 @@ $(document).ready(function(){
     function UserName(firstName, lastName){
         this.firstName = firstName;
         this.lastName = lastName;
+        this.fullName = firstName + lastName;
     }
 
-    function Location(city, county, state) {
+    function Location(city, estate, street) {
         this.city = city;
-        this.county = county;
-        this.state = state;
+        this.estate = estate;
+        this.street = street;
     }
 
-    
+    UserName.prototype.fullName = function(){
+        return this.fullName;
+    }
+
+    console.log(UserName);
+
+
 
 
     $("#checkout-btn").click(
