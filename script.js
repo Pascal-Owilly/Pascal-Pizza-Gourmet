@@ -1,8 +1,12 @@
 $(document).ready(function(){   
 
-    function Size(small, medium, large){
-       this.small = small;
-       this.meium = medium;
-       this.large = large;
-    }
+    $("#checkout-btn").click(
+        function(){
+            $("#section").fadeToggle(1000);
+            $("form").submit("")
+
+        }
+    );
+
+
 });
