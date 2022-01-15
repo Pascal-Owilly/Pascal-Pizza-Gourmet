@@ -67,38 +67,65 @@
 
     <div class="container-fluid" style="margin-top: 3rem;margin-bottom: 2rem;">
         <div class="row">
-            <div class="col-md-5"">
+            <div class="col-md-4">
                 <img src=" images/img1.jpg" alt="" style="width: 95%;">
 
             </div>
 
-            <div class="col-md-7">
-                <p style="color: white;font-size: 23px;">Size</p>
-             <select name="" id="size">
-                 <option value="">Small</option>
-                 <option value="">Medium</option>
-                 <option value="">Large</option>
-             </select>
-             <p style="color: white;font-size: 23px;">Crust</p>
-             <select name="" id="">
-                 <option value="">Crispy</option>
-                 <option value="">Stuffed</option>
-                 <option value="">Gluten-Free</option>
-             </select>
-             <p style="color: white;font-size: 23px;"> Topping(s)</p>
-             <select name="" id="">
-                 <option value="">Sausage</option>
-                 <option value="">Broccoli</option>
-                 <option value="">Strawberry</option>
-             </select>
-             <br><br>
 
-          <p>   <button id="checkout-btn" style="background-color: beige;color: #fff;border-radius: 25px 25px 0 20px;padding: 5px;outline: none;font-weight: 700;margin-left: 6rem;background-color: #f68b1e;border: none;width: 200px;height: 50px;">Checkout</button></p>
+            <div class="col-md-3">
+                <p style="color: white;font-size: 23px;">Size</p>
+                <select name="">
+                    <option id="small" value="">Small</option>
+                    <option value="">Medium</option>
+                    <option value="">Large</option>
+                </select>
+                <p style="color: white;font-size: 23px;">Crust</p>
+                <select name="" id="">
+                    <option value="">Crispy</option>
+                    <option value="">Stuffed</option>
+                    <option value="">Gluten-Free</option>
+                </select>
+                <p style="color: white;font-size: 23px;"> Topping(s)</p>
+                <select name="" id="">
+                    <option value="">Sausage</option>
+                    <option value="">Broccoli</option>
+                    <option value="">Strawberry</option>
+                </select>
+                <br><br>
+
+                <p> <button id="checkout-btn"
+                        style="background-color: beige;color: #fff;border-radius: 25px 25px 0 20px;padding: 5px;outline: none;font-weight: 700;margin-left: 7.5rem;background-color: #f68b1e;border: none;width: 200px;height: 50px;font-size: larger;">Checkout</button>
+                </p>
+            </div>
+        
+            <div class="col-md-3" id="section">
+                <div class="card" style="width: 32rem;height: 55vh;">
+                    <div class="card-body">
+                     <form id="user-input">
+                         <label for="first-name">First Name</label>
+                         <input type="text" id="full-name">
+                         <label for="last-name">Last Name</label>
+                         <input type="text" id="full-name">
+                     </form>
+
+
+
+                      <!-- <h5 class="card-title"></h5>
+                      <h6 class="card-subtitle mb-2 text-muted"></h6>
+                      <p class="card-text"></p>
+                      <a href="#" class="card-link"> <button style="border: none;background-color: #ccc;color: #fff;font-size: 20px;font-weight: 600;border-radius: 5px;"> Okay </button></a>
+                      <a href="#" class="card-link"><button style="border: none;background-color: tomato;color: #fff;font-size: 20px;font-weight: 600;border-radius: 5px;"> Cancel </button></a>
+                      -->
+                    </div>
+                  </div>
+            </div>
+            
+
             </div>
 
-
-         
         </div>
+    </div>
     </div>
 
 
