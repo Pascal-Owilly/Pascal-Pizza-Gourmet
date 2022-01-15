@@ -70,6 +70,7 @@ li a {
 }
 
 
+
 select {
     width: 20rem;
     text-align: center;
@@ -82,5 +83,9 @@ select {
 }
 
 .jumbotron {
+    display: none;
+}
+
+#section {
     display: none;
 }
