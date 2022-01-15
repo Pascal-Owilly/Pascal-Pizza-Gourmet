@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;
-    background-color: beige;
+    background-color: #fac564;
 }
 
 nav div a {
@@ -9,6 +9,13 @@ nav div a {
 
 nav {
     height: 17vh;
+    position: fixed;
+}
+
+.fa-solid {
+ color: #fac564;
+ font-size: 100px;
+ background-color: lightblue;
 }
 
 nav a {
@@ -40,20 +47,9 @@ li a {
     color: white;
 }
 
-button {
-    outline: none;
-}
 
-li button {
-    background-color: red;
-    color: yellow;
-    font-size: 23px;
-    border-radius: 30px 30px 0 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: 500;
-    opacity: 0.7;
-}
+
+
 
 .nav-item {
     color: white;
