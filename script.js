@@ -37,9 +37,9 @@ function checkoutBtn() {
   var total = ((prize + toppingPrice) * number);
 
 
-  document.getElementById("name").innerHTML = "Hi" + " " + name + " " + "your order is";
-  document.getElementById("order").innerHTML = number + " " + size + " " + toppings;
-  document.getElementById("total").innerHTML = "costing a total of" + " " + total + "/=";
+  document.getElementById("userName").innerHTML = "Hi" + " " + name + " " + "your order is";
+  document.getElementById("userOrder").innerHTML = number + " " + size + " " + toppings;
+  document.getElementById("userTotal").innerHTML = "costing a total of" + " " + total + "/=";
 
 
 }
@@ -59,13 +59,12 @@ $(document).ready(function () {
 
 
   $("#checkout-btn").click(function () {
-    $('#orderPizza').hide();
+    $('#orderPizza').toggle();
     $('#check').show();
     $("#section").toggle();
     $("#checkout-btn").toggle();
     $("#home-delivery-btn").toggle();
     $("#pick-up-btn").toggle();
-
   });
 
 
