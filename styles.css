@@ -80,18 +80,20 @@ select {
     color: white;
     padding: 5px;
     outline:
-     none;
+        none;
 }
 
 
 #show-contact {
     display: ;
     color: #fac564;
-} 
+}
+
 #home-delivery-btn {
     display: none;
 }
-#pick-up-btn{
+
+#pick-up-btn {
     display: none;
 }
 
