@@ -2,7 +2,7 @@
 
 function checkOut() {
 
-  var size = (document.getElementById("size").value); 
+  var size = (document.getElementById("size").value);
   var toppings = (document.getElementById("tops").value);
   var number = (document.getElementById("quantity").value);
   var name = document.getElementById("name").value;
@@ -17,7 +17,7 @@ function checkOut() {
   } else if (size === "Large") {
     var prize = 1450;
   }
-  
+
 
 
   if (toppings === "Hawaian") {
@@ -54,7 +54,7 @@ $(document).ready(function () {
   });
 
   $('#pick-up-btn').click(function () {
-    alert("Hello, we will notify you when your order is ready, thank you" );
+    alert("Hello, we will notify you when your order is ready, thank you");
   });
 
 
@@ -68,135 +68,7 @@ $(document).ready(function () {
 
   });
 
- 
+
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
