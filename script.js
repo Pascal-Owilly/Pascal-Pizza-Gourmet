@@ -1,6 +1,6 @@
 //business logic
 
-function checkOut() {
+function checkoutBtn() {
 
   var size = (document.getElementById("size").value);
   var toppings = (document.getElementById("tops").value);
