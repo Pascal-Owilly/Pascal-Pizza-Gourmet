@@ -1,4 +1,4 @@
-# Pizza GouRmet
+# Pizza Gourmet
 #### Project Description
 This website is a dmonstration of my idea of a pizza website and is designed to demonstrate the skils I gained in a week.
 #### By **Pascal Ouma Owilly**
