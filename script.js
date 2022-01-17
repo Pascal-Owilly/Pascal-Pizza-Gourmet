@@ -49,8 +49,9 @@ $(document).ready(function () {
 
   $('#home-delivery-btn').click(function (e) {
     e.preventDefault()
+    alert("The delivery charge is ksh 100");
     prompt("enter your location");
-    alert(name + " your order is on the way, delivery fee is ksh 55, thank you")
+    alert("Your order will be delivered to your location once you checkout.")
   });
 
   $('#pick-up-btn').click(function () {
